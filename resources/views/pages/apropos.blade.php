@@ -1,5 +1,8 @@
 @extends("app")
 
+@section("title","Apropos-nous | Hello-city")
+
+
 @section("content")
 
     <p>Creéer avec amour &hearts; par Yorgo Pellel.</p>
