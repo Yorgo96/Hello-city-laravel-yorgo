@@ -5,8 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route :: get('/',function(){
-    return view('accueil');
+    return view('pages.accueil');
 });
 Route::get('/apropos-nous',function(){
-    return view('apropos');
+    return view('pages.apropos');
 });
