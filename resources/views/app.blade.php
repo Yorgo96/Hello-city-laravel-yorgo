@@ -5,11 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>@yield("title")</title>
+        <title>@yield("title","Hello city")</title>
 
     </head>
     <body>
         @yield("content")
+
+
 
         <footer>
             <p>

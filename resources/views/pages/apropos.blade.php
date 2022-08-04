@@ -1,6 +1,6 @@
 @extends("app")
 
-@section("title","Apropos-nous | Hello-city")
+@section("title","Apropos-nous | Hello city")
 
 
 @section("content")
