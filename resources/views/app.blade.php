@@ -16,7 +16,9 @@
         <footer>
             <p>
                 &copy; copyright {{date("Y")}} &middot;
-                <a href="{{route('apropos')}}">Apropos-nous</a>
+                @if(!Route::is('apropos'))
+                    <a href="{{route('apropos')}}">Apropos-nous</a>
+                @endif
             </p>
         </footer>
     </body>
