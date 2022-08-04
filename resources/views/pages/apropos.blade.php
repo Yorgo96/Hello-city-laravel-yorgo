@@ -1,6 +1,5 @@
-@extends("app")
+@extends("Layouts.app", ['pageTitle'=>" Apropos-nous"])
 
-@section("title","Apropos-nous | Hello city")
 
 
 @section("content")

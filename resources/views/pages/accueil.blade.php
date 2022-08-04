@@ -1,6 +1,5 @@
-@extends("app")
+@extends("Layouts.app")
 
-@section("title")
 
 @section("content")
 
